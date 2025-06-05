@@ -1,0 +1,64 @@
+/* Resetando os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section#intro {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#campo-e-cidade {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#campo-e-cidade .content {
+    display: flex;
+    gap: 30px;
+}
+
+.campo, .cidade {
+    width: 45%;
+    text-align: center;
+}
+
+.campo img, .cidade img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
